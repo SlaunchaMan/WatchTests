@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06B6C2E7AA61F54AD5DB283D /* Pods_ClaspTestRunner_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D733B7BEEFB3E1F3FD5DAB45 /* Pods_ClaspTestRunner_WatchKit_Extension.framework */; };
 		1FC8D7CD1DDFF5E000FFEB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7CC1DDFF5E000FFEB22 /* AppDelegate.swift */; };
 		1FC8D7CF1DDFF5E000FFEB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7CE1DDFF5E000FFEB22 /* ViewController.swift */; };
 		1FC8D7D21DDFF5E000FFEB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D7D01DDFF5E000FFEB22 /* Main.storyboard */; };
 		1FC8D7D41DDFF5E000FFEB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D7D31DDFF5E000FFEB22 /* Assets.xcassets */; };
 		1FC8D7D71DDFF5E000FFEB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D7D51DDFF5E000FFEB22 /* LaunchScreen.storyboard */; };
 		1FC8D7E21DDFF5E100FFEB22 /* ClaspTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7E11DDFF5E100FFEB22 /* ClaspTests.swift */; };
-		1FC8D7E71DDFF5E100FFEB22 /* Clasp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1FC8D7E61DDFF5E100FFEB22 /* Clasp WatchKit App.app */; };
+		1FC8D7E71DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1FC8D7E61DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App.app */; };
 		1FC8D7ED1DDFF5E100FFEB22 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D7EB1DDFF5E100FFEB22 /* Interface.storyboard */; };
 		1FC8D7EF1DDFF5E100FFEB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D7EE1DDFF5E100FFEB22 /* Assets.xcassets */; };
-		1FC8D7F61DDFF5E100FFEB22 /* Clasp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC8D7F51DDFF5E100FFEB22 /* Clasp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1FC8D7FB1DDFF5E100FFEB22 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7FA1DDFF5E100FFEB22 /* InterfaceController.swift */; };
+		1FC8D7F61DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC8D7F51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC8D7FB1DDFF5E100FFEB22 /* TestRunningInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7FA1DDFF5E100FFEB22 /* TestRunningInterfaceController.swift */; };
 		1FC8D7FD1DDFF5E100FFEB22 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7FC1DDFF5E100FFEB22 /* ExtensionDelegate.swift */; };
 		1FC8D7FF1DDFF5E100FFEB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC8D7FE1DDFF5E100FFEB22 /* Assets.xcassets */; };
+		1FC8D82E1DDFFC6600FFEB22 /* ClaspTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8D7E11DDFF5E100FFEB22 /* ClaspTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1FC8D7F61DDFF5E100FFEB22 /* Clasp WatchKit Extension.appex in Embed App Extensions */,
+				1FC8D7F61DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,15 +66,25 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				1FC8D7E71DDFF5E100FFEB22 /* Clasp WatchKit App.app in Embed Watch Content */,
+				1FC8D7E71DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC8D8221DDFF86D00FFEB22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1FC8D7C91DDFF5E000FFEB22 /* Clasp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clasp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC8D7C91DDFF5E000FFEB22 /* ClaspSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaspSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8D7CC1DDFF5E000FFEB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC8D7CE1DDFF5E000FFEB22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FC8D7D11DDFF5E000FFEB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,15 +94,18 @@
 		1FC8D7DD1DDFF5E100FFEB22 /* ClaspTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaspTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8D7E11DDFF5E100FFEB22 /* ClaspTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaspTests.swift; sourceTree = "<group>"; };
 		1FC8D7E31DDFF5E100FFEB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC8D7E61DDFF5E100FFEB22 /* Clasp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clasp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC8D7E61DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClaspTestRunner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8D7EC1DDFF5E100FFEB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1FC8D7EE1DDFF5E100FFEB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC8D7F01DDFF5E100FFEB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC8D7F51DDFF5E100FFEB22 /* Clasp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clasp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC8D7FA1DDFF5E100FFEB22 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1FC8D7F51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ClaspTestRunner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC8D7FA1DDFF5E100FFEB22 /* TestRunningInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRunningInterfaceController.swift; sourceTree = "<group>"; };
 		1FC8D7FC1DDFF5E100FFEB22 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		1FC8D7FE1DDFF5E100FFEB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC8D8001DDFF5E100FFEB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320644337638A7E0A86A678A /* Pods-ClaspTestRunner WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaspTestRunner WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClaspTestRunner WatchKit Extension/Pods-ClaspTestRunner WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		81B519C77ABC8383745E6DC5 /* Pods-ClaspTestRunner WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaspTestRunner WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClaspTestRunner WatchKit Extension/Pods-ClaspTestRunner WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D733B7BEEFB3E1F3FD5DAB45 /* Pods_ClaspTestRunner_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClaspTestRunner_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +127,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B6C2E7AA61F54AD5DB283D /* Pods_ClaspTestRunner_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD63AF78A6D60BE874F791C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0618ED7B96C09AFC6E1A3AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D733B7BEEFB3E1F3FD5DAB45 /* Pods_ClaspTestRunner_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1FC8D7C01DDFF5E000FFEB22 = {
 			isa = PBXGroup;
 			children = (
@@ -126,16 +157,18 @@
 				1FC8D7EA1DDFF5E100FFEB22 /* Clasp WatchKit App */,
 				1FC8D7F91DDFF5E100FFEB22 /* Clasp WatchKit Extension */,
 				1FC8D7CA1DDFF5E000FFEB22 /* Products */,
+				47B729737CF939201B90023C /* Pods */,
+				0618ED7B96C09AFC6E1A3AF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1FC8D7CA1DDFF5E000FFEB22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FC8D7C91DDFF5E000FFEB22 /* Clasp.app */,
+				1FC8D7C91DDFF5E000FFEB22 /* ClaspSampleApp.app */,
 				1FC8D7DD1DDFF5E100FFEB22 /* ClaspTests.xctest */,
-				1FC8D7E61DDFF5E100FFEB22 /* Clasp WatchKit App.app */,
-				1FC8D7F51DDFF5E100FFEB22 /* Clasp WatchKit Extension.appex */,
+				1FC8D7E61DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App.app */,
+				1FC8D7F51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +208,7 @@
 		1FC8D7F91DDFF5E100FFEB22 /* Clasp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1FC8D7FA1DDFF5E100FFEB22 /* InterfaceController.swift */,
+				1FC8D7FA1DDFF5E100FFEB22 /* TestRunningInterfaceController.swift */,
 				1FC8D7FC1DDFF5E100FFEB22 /* ExtensionDelegate.swift */,
 				1FC8D7FE1DDFF5E100FFEB22 /* Assets.xcassets */,
 				1FC8D8001DDFF5E100FFEB22 /* Info.plist */,
@@ -183,12 +216,21 @@
 			path = "Clasp WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		47B729737CF939201B90023C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B519C77ABC8383745E6DC5 /* Pods-ClaspTestRunner WatchKit Extension.debug.xcconfig */,
+				320644337638A7E0A86A678A /* Pods-ClaspTestRunner WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FC8D7C81DDFF5E000FFEB22 /* Clasp */ = {
+		1FC8D7C81DDFF5E000FFEB22 /* ClaspSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC8D80B1DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "Clasp" */;
+			buildConfigurationList = 1FC8D80B1DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspSampleApp" */;
 			buildPhases = (
 				1FC8D7C51DDFF5E000FFEB22 /* Sources */,
 				1FC8D7C61DDFF5E000FFEB22 /* Frameworks */,
@@ -200,9 +242,9 @@
 			dependencies = (
 				1FC8D7E91DDFF5E100FFEB22 /* PBXTargetDependency */,
 			);
-			name = Clasp;
+			name = ClaspSampleApp;
 			productName = Clasp;
-			productReference = 1FC8D7C91DDFF5E000FFEB22 /* Clasp.app */;
+			productReference = 1FC8D7C91DDFF5E000FFEB22 /* ClaspSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1FC8D7DC1DDFF5E100FFEB22 /* ClaspTests */ = {
@@ -223,38 +265,43 @@
 			productReference = 1FC8D7DD1DDFF5E100FFEB22 /* ClaspTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1FC8D7E51DDFF5E100FFEB22 /* Clasp WatchKit App */ = {
+		1FC8D7E51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC8D8071DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "Clasp WatchKit App" */;
+			buildConfigurationList = 1FC8D8071DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspTestRunner WatchKit App" */;
 			buildPhases = (
 				1FC8D7E41DDFF5E100FFEB22 /* Resources */,
 				1FC8D8061DDFF5E100FFEB22 /* Embed App Extensions */,
+				ABD63AF78A6D60BE874F791C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				1FC8D7F81DDFF5E100FFEB22 /* PBXTargetDependency */,
 			);
-			name = "Clasp WatchKit App";
+			name = "ClaspTestRunner WatchKit App";
 			productName = "Clasp WatchKit App";
-			productReference = 1FC8D7E61DDFF5E100FFEB22 /* Clasp WatchKit App.app */;
+			productReference = 1FC8D7E61DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		1FC8D7F41DDFF5E100FFEB22 /* Clasp WatchKit Extension */ = {
+		1FC8D7F41DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC8D8031DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "Clasp WatchKit Extension" */;
+			buildConfigurationList = 1FC8D8031DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspTestRunner WatchKit Extension" */;
 			buildPhases = (
+				A88085F88AC5E7F4CFED8092 /* [CP] Check Pods Manifest.lock */,
 				1FC8D7F11DDFF5E100FFEB22 /* Sources */,
 				1FC8D7F21DDFF5E100FFEB22 /* Frameworks */,
 				1FC8D7F31DDFF5E100FFEB22 /* Resources */,
+				1FC8D8221DDFF86D00FFEB22 /* Embed Frameworks */,
+				BC0DA338EAA001AE2EDC97C2 /* [CP] Embed Pods Frameworks */,
+				81CBFA65CF2ACEA382DC6E6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Clasp WatchKit Extension";
+			name = "ClaspTestRunner WatchKit Extension";
 			productName = "Clasp WatchKit Extension";
-			productReference = 1FC8D7F51DDFF5E100FFEB22 /* Clasp WatchKit Extension.appex */;
+			productReference = 1FC8D7F51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +321,6 @@
 					1FC8D7DC1DDFF5E100FFEB22 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1FC8D7C81DDFF5E000FFEB22;
 					};
 					1FC8D7E51DDFF5E100FFEB22 = {
 						CreatedOnToolsVersion = 8.1;
@@ -282,6 +328,7 @@
 					};
 					1FC8D7F41DDFF5E100FFEB22 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -299,10 +346,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FC8D7C81DDFF5E000FFEB22 /* Clasp */,
+				1FC8D7C81DDFF5E000FFEB22 /* ClaspSampleApp */,
 				1FC8D7DC1DDFF5E100FFEB22 /* ClaspTests */,
-				1FC8D7E51DDFF5E100FFEB22 /* Clasp WatchKit App */,
-				1FC8D7F41DDFF5E100FFEB22 /* Clasp WatchKit Extension */,
+				1FC8D7E51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App */,
+				1FC8D7F41DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -344,6 +391,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81CBFA65CF2ACEA382DC6E6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClaspTestRunner WatchKit Extension/Pods-ClaspTestRunner WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88085F88AC5E7F4CFED8092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0DA338EAA001AE2EDC97C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClaspTestRunner WatchKit Extension/Pods-ClaspTestRunner WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FC8D7C51DDFF5E000FFEB22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -366,8 +461,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC8D82E1DDFFC6600FFEB22 /* ClaspTests.swift in Sources */,
 				1FC8D7FD1DDFF5E100FFEB22 /* ExtensionDelegate.swift in Sources */,
-				1FC8D7FB1DDFF5E100FFEB22 /* InterfaceController.swift in Sources */,
+				1FC8D7FB1DDFF5E100FFEB22 /* TestRunningInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,17 +472,17 @@
 /* Begin PBXTargetDependency section */
 		1FC8D7DF1DDFF5E100FFEB22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC8D7C81DDFF5E000FFEB22 /* Clasp */;
+			target = 1FC8D7C81DDFF5E000FFEB22 /* ClaspSampleApp */;
 			targetProxy = 1FC8D7DE1DDFF5E100FFEB22 /* PBXContainerItemProxy */;
 		};
 		1FC8D7E91DDFF5E100FFEB22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC8D7E51DDFF5E100FFEB22 /* Clasp WatchKit App */;
+			target = 1FC8D7E51DDFF5E100FFEB22 /* ClaspTestRunner WatchKit App */;
 			targetProxy = 1FC8D7E81DDFF5E100FFEB22 /* PBXContainerItemProxy */;
 		};
 		1FC8D7F81DDFF5E100FFEB22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC8D7F41DDFF5E100FFEB22 /* Clasp WatchKit Extension */;
+			target = 1FC8D7F41DDFF5E100FFEB22 /* ClaspTestRunner WatchKit Extension */;
 			targetProxy = 1FC8D7F71DDFF5E100FFEB22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,24 +610,29 @@
 		};
 		1FC8D8041DDFF5E100FFEB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B519C77ABC8383745E6DC5 /* Pods-ClaspTestRunner WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Clasp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.Clasp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
 		1FC8D8051DDFF5E100FFEB22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320644337638A7E0A86A678A /* Pods-ClaspTestRunner WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Clasp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.Clasp.watchkitapp.watchkitextension;
@@ -540,7 +641,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -557,7 +658,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -574,7 +675,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -606,13 +707,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClaspTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ClaspTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clasp.app/Clasp";
 			};
 			name = Debug;
 		};
@@ -620,13 +719,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClaspTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ClaspTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clasp.app/Clasp";
 			};
 			name = Release;
 		};
@@ -642,29 +739,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC8D8031DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "Clasp WatchKit Extension" */ = {
+		1FC8D8031DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspTestRunner WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC8D8041DDFF5E100FFEB22 /* Debug */,
 				1FC8D8051DDFF5E100FFEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1FC8D8071DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "Clasp WatchKit App" */ = {
+		1FC8D8071DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspTestRunner WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC8D8081DDFF5E100FFEB22 /* Debug */,
 				1FC8D8091DDFF5E100FFEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1FC8D80B1DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "Clasp" */ = {
+		1FC8D80B1DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC8D80C1DDFF5E100FFEB22 /* Debug */,
 				1FC8D80D1DDFF5E100FFEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC8D80E1DDFF5E100FFEB22 /* Build configuration list for PBXNativeTarget "ClaspTests" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +773,7 @@
 				1FC8D8101DDFF5E100FFEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

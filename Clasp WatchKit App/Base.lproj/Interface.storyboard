@@ -1,14 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Tests-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller title="Tests" id="AgC-eL-Hgc" customClass="TestRunningInterfaceController" customModule="ClaspTestRunner_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="dff-Nb-B87">
+                            <items>
+                                <tableRow id="WOm-h4-vei" customClass="TestRowController" customModule="ClaspTestRunner_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="KRi-OB-KYg">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Test Name" numberOfLines="0" minimumScaleFactor="0.5" id="H7e-fQ-Pgc"/>
+                                            <label alignment="right" verticalAlignment="center" text="✅" id="H5i-e1-2vu"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="testNameLabel" destination="H7e-fQ-Pgc" id="vUU-tR-r1v"/>
+                                        <outlet property="testStatusLabel" destination="H5i-e1-2vu" id="UVb-k3-RZ0"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
             </objects>
         </scene>
     </scenes>

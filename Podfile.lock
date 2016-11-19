@@ -1,0 +1,21 @@
+PODS:
+  - XCTest (3.0.1)
+
+DEPENDENCIES:
+  - XCTest (from `./XCTest.podspec`)
+
+EXTERNAL SOURCES:
+  XCTest:
+    :podspec: "./XCTest.podspec"
+
+CHECKOUT OPTIONS:
+  XCTest:
+    :commit: 51b419d4b815a7e7af66d197469d5481613f70a4
+    :git: https://github.com/apple/swift-corelibs-xctest.git
+
+SPEC CHECKSUMS:
+  XCTest: e6b4303270ec484ccbbfc7758c397d30a8af6bbf
+
+PODFILE CHECKSUM: 8dc4af439435ddb6a48e768aefe47fa95e3c9e6f
+
+COCOAPODS: 1.1.1
