@@ -11,7 +11,7 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ClaspTestRunner_WatchKit_Extension"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchTestsTestRunner_WatchKit_Extension"/>
             </objects>
             <point key="canvasLocation" x="-43" y="10"/>
         </scene>
