@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.watchos.deployment_target = "3.0"
 
-  s.source       = { :git => "https://github.com/apple/swift-corelibs-xctest.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/apple/swift-corelibs-xctest.git", :tag => "swift-" + s.version.to_s + "-RELEASE" }
 
   s.source_files  = "Sources/**/*.swift"
 
@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
 
   s.prepare_command = <<-CMD
                         find Sources/ -type f -name "*.swift" | xargs sed -e 's/import SwiftFoundation/import Foundation/g' -i ""
-                        sed -i "" -e 's/usingBlock:/using:/' Sources/XCTest/Public/Asynchronous/XCTestCase+NotificationExpectation.swift
+                        sed -i "" -e 's/usingBlock:/using:/' Sources/XCTest/Public/XCTestCase+Asynchronous.swift
                       CMD
 end

@@ -14,8 +14,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/apple/swift-corelibs-xctest.git
 
 SPEC CHECKSUMS:
-  XCTest: e6b4303270ec484ccbbfc7758c397d30a8af6bbf
+  XCTest: d34af296c036ebee056fdbe336865fc637b8100a
 
-PODFILE CHECKSUM: 8dc4af439435ddb6a48e768aefe47fa95e3c9e6f
+PODFILE CHECKSUM: 5ad763ef734e80762844baedf26205c830f0e3ae
 
 COCOAPODS: 1.1.1

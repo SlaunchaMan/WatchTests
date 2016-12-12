@@ -1,5 +1,5 @@
 //
-//  ExtensionDelegate.swift
+//  InterfaceController.swift
 //  Clasp WatchKit Extension
 //
 //  Created by Jeff Kelley on 11/18/16.
@@ -8,6 +8,6 @@
 
 import WatchKit
 
-class ExtensionDelegate: NSObject, WKExtensionDelegate {
-
+class InterfaceController: WKInterfaceController {
+    
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC8D7C81DDFF5E000FFEB22"
-               BuildableName = "ClaspSampleApp.app"
-               BlueprintName = "ClaspSampleApp"
-               ReferencedContainer = "container:Clasp.xcodeproj">
+               BuildableName = "WatchTestsSampleApp.app"
+               BlueprintName = "WatchTestsSampleApp"
+               ReferencedContainer = "container:WatchTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC8D7DC1DDFF5E100FFEB22"
-               BuildableName = "ClaspTests.xctest"
-               BlueprintName = "ClaspTests"
-               ReferencedContainer = "container:Clasp.xcodeproj">
+               BuildableName = "WatchTestsTests.xctest"
+               BlueprintName = "WatchTestsTests"
+               ReferencedContainer = "container:WatchTests.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7C81DDFF5E000FFEB22"
-            BuildableName = "ClaspSampleApp.app"
-            BlueprintName = "ClaspSampleApp"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsSampleApp.app"
+            BlueprintName = "WatchTestsSampleApp"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7C81DDFF5E000FFEB22"
-            BuildableName = "ClaspSampleApp.app"
-            BlueprintName = "ClaspSampleApp"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsSampleApp.app"
+            BlueprintName = "WatchTestsSampleApp"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7C81DDFF5E000FFEB22"
-            BuildableName = "ClaspSampleApp.app"
-            BlueprintName = "ClaspSampleApp"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsSampleApp.app"
+            BlueprintName = "WatchTestsSampleApp"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

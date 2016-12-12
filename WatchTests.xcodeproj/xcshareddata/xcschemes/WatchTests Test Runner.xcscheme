@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC8D7E51DDFF5E100FFEB22"
-               BuildableName = "ClaspTestRunner WatchKit App.app"
-               BlueprintName = "ClaspTestRunner WatchKit App"
-               ReferencedContainer = "container:Clasp.xcodeproj">
+               BuildableName = "WatchTestsTestRunner WatchKit App.app"
+               BlueprintName = "WatchTestsTestRunner WatchKit App"
+               ReferencedContainer = "container:WatchTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC8D7C81DDFF5E000FFEB22"
-               BuildableName = "ClaspSampleApp.app"
-               BlueprintName = "ClaspSampleApp"
-               ReferencedContainer = "container:Clasp.xcodeproj">
+               BuildableName = "WatchTestsSampleApp.app"
+               BlueprintName = "WatchTestsSampleApp"
+               ReferencedContainer = "container:WatchTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7E51DDFF5E100FFEB22"
-            BuildableName = "ClaspTestRunner WatchKit App.app"
-            BlueprintName = "ClaspTestRunner WatchKit App"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsTestRunner WatchKit App.app"
+            BlueprintName = "WatchTestsTestRunner WatchKit App"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -72,18 +72,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7E51DDFF5E100FFEB22"
-            BuildableName = "ClaspTestRunner WatchKit App.app"
-            BlueprintName = "ClaspTestRunner WatchKit App"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsTestRunner WatchKit App.app"
+            BlueprintName = "WatchTestsTestRunner WatchKit App"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7E51DDFF5E100FFEB22"
-            BuildableName = "ClaspTestRunner WatchKit App.app"
-            BlueprintName = "ClaspTestRunner WatchKit App"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsTestRunner WatchKit App.app"
+            BlueprintName = "WatchTestsTestRunner WatchKit App"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -102,18 +102,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7E51DDFF5E100FFEB22"
-            BuildableName = "ClaspTestRunner WatchKit App.app"
-            BlueprintName = "ClaspTestRunner WatchKit App"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsTestRunner WatchKit App.app"
+            BlueprintName = "WatchTestsTestRunner WatchKit App"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC8D7E51DDFF5E100FFEB22"
-            BuildableName = "ClaspTestRunner WatchKit App.app"
-            BlueprintName = "ClaspTestRunner WatchKit App"
-            ReferencedContainer = "container:Clasp.xcodeproj">
+            BuildableName = "WatchTestsTestRunner WatchKit App.app"
+            BlueprintName = "WatchTestsTestRunner WatchKit App"
+            ReferencedContainer = "container:WatchTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

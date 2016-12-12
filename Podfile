@@ -1,4 +1,4 @@
-target 'ClaspTestRunner WatchKit Extension' do
+target 'WatchTestsTestRunner WatchKit Extension' do
   platform :watchos, '3.0'
   use_frameworks!
 
