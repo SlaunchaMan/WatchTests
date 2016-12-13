@@ -8,14 +8,21 @@
 
 import XCTest
 
+#if os(watchOS)
+    import WatchKit
+#endif
+
 class WatchTestsTests: XCTestCase {
     
+    #if os(watchOS)
     static var allTests = {
         return [
             ("testPassingTest", testPassingTest),
             ("testSomeOtherAssertions", testSomeOtherAssertions),
-            ]
+            ("testWatchSpecificStuff", testWatchSpecificStuff)
+        ]
     }()
+    #endif
     
     func testPassingTest() {
         print("This is my test method.")
@@ -35,5 +42,17 @@ class WatchTestsTests: XCTestCase {
         XCTAssertLessThan(1, 2)
         XCTAssertGreaterThan(2, 1)
     }
+    
+    #if os(watchOS)
+    func testWatchSpecificStuff() {
+        let interfaceController = WKExtension
+            .shared()
+            .rootInterfaceController
+            as? InterfaceController
+        
+        
+        XCTAssertNotEqual(interfaceController, nil)
+    }
+    #endif
     
 }
